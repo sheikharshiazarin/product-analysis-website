@@ -26,7 +26,7 @@ const Home = () => {
         <img src={Pic} alt="" />
       </div>
       <div className="comment">
-        <h1> Comments:{blogs.length}</h1>
+        <h1> Comments:03</h1>
         {blogs.slice(0, 3).map((blog, index) => (
           <Blog key={index} blog={blog} />
         ))}
