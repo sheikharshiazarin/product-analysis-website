@@ -1,0 +1,18 @@
+.bird{
+    display: grid;
+    grid-template:2fr 2fr;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.bird p{
+    font-size: 20px;
+}
+.bird .comment h1{
+    text-align: center;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+}

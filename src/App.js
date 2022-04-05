@@ -7,8 +7,10 @@ import Login from "./Components/Login/Login";
 import NotFound from "./Components/NotFound/NotFound";
 import Navbar from "./Components/Navbar/Navbar";
 import Blogs from "./Components/Blogs/Blogs";
+// import Blog from "./Components/Blog/Blog";
 import Reviews from "./Components/Reviews/Reviews";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import BlogsDtails from "./Components/BlogsDtails/BlogsDtails";
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blog/:id" element={<BlogsDtails />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
