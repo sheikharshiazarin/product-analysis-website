@@ -2,8 +2,6 @@
 
 ## [Private repo link](https://hilarious-cucurucho-d00f70.netlify.app/)
 
-)
-
 ---
 
 ### Special Feature
